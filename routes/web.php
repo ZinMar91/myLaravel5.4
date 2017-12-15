@@ -18,4 +18,8 @@ Route::get('/', function () {
 /*Route::get('users', 'UserController@index')->name('users');
 Route::get('users.data', 'UserController@getUsers')->name('users.data');*/
 
-Route::resource('users', 'Datatable\UsersController');
+//Route::resource('users', 'Datatable\UsersController');
+
+Route::get('user', 'ImportController@index');
+Route::post('user/import', 'ImportController@import');
+Route::get('user/export', 'ImportController@export');

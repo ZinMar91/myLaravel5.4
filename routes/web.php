@@ -23,3 +23,7 @@ Route::get('users.data', 'UserController@getUsers')->name('users.data');*/
 Route::get('user', 'ImportController@index');
 Route::post('user/import', 'ImportController@import');
 Route::get('user/export', 'ImportController@export');
+
+/************ Image ************/
+Route::get('resizeImage', 'ImageInterventionController@index');
+Route::post('resizeImage', 'ImageInterventionController@resizeImage')->name('resizeImage');

@@ -31,6 +31,9 @@ class ImageInterventionController extends Controller
         $destinationPath = public_path('/images');
         $image->move($destinationPath, $imgName);
 
+        alert()->success('Image Upload Successful', '');
+
+
         return back()->with('success', 'Image Upload Successful')
                     ->with('imageName', $imgName);
     }

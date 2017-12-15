@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Image | Resize')
 @section('content')
+    @include('Alerts::show')
     <div class="container">
         <h1>Resize Image Uploading Demo:</h1>
         @if(count($errors) > 0)

@@ -12,8 +12,13 @@
 
     <link rel="stylesheet" href="http://demo.itsolutionstuff.com/plugin/bootstrap-3.min.css">
     <link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet">
+    <!--sweet alert -->
+    <link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
+
     <script src="http://demo.itsolutionstuff.com/plugin/jquery.js"></script>
     <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <!--sweet alert -->
+    <script src="/js/sweetalert.js"></script>
 </head>
 <body>
 <div class="flex-center position-ref full-height">

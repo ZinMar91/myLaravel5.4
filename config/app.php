@@ -173,6 +173,7 @@ return [
         Barryvdh\DomPDF\ServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        Socieboy\Alerts\AlertServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -1,8 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.myapp')
 @section('title', 'Image | Resize')
 @section('content')
     @include('Alerts::show')
     <div class="container">
+        <div class="row">
+            @if (Auth::check())
+                <img src="{{ Gravatar::get(Auth::user()->email) }}" style="height:50px; width:50px; border-radius:50%;">
+            @endif
+        </div>
         <h1>Resize Image Uploading Demo:</h1>
         @if(count($errors) > 0)
             <div class="alert alert-danger">

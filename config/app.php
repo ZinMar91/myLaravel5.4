@@ -174,6 +174,8 @@ return [
         Intervention\Image\ImageServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Socieboy\Alerts\AlertServiceProvider::class,
+        Creativeorange\Gravatar\GravatarServiceProvider::class,
+
 
         /*
          * Application Service Providers...
@@ -236,7 +238,7 @@ return [
         'Image' => Intervention\Image\Facades\Image::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-
+        'Gravatar' => Creativeorange\Gravatar\Facades\Gravatar::class,
     ],
 
 ];
